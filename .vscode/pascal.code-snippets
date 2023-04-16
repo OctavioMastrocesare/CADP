@@ -1,0 +1,56 @@
+{
+	"Iniciar Programa": {
+		"prefix": "PP",
+		"body": [
+			"Program NAME;",
+			" ",
+			" ",
+			"Const",
+			" ",
+			" ",
+			"Type",
+			" ",
+			" ",
+			" ",
+			"Procedure PRNAME ();",
+			"Var ",
+			"Begin",
+			" ",
+			"End;",
+			" ",
+			" ",
+			" ",
+			"Var ",
+			" ",
+			"Begin",
+			" ",
+			"End.",
+			" "
+		],
+		"description": "Inicia el Programa"
+	},
+	"New procedure": {
+		"prefix": "procedure",
+		"body": [
+			"procedure PRNAME ()$1;",
+			"var",
+			" ",
+			"begin",
+			"\t$0",
+			"end;",
+		],
+		"description": "Crea un nuevo procedimiento.",
+	},
+	"New Function": {
+		"prefix": "function",
+		"body": [
+			"function FNNAME (): TYPE$1;",
+			"var",
+			" ",
+			"begin",
+			"\t$0",
+			"end;",
+		],
+		"description": "Crea una nueva funcion.",
+	}
+}
