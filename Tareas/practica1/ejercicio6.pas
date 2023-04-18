@@ -18,11 +18,10 @@ Begin
             readln (promedio);
             writeln ('legajo: ', legajo);
             writeln ('promedio: ', promedio:0:2);
-
+            If promedio>=6.5 Then buenpromedio := buenpromedio+1;
+            If (promedio>=8.5) And (legajo<2500) Then destacados := destacados+1;
             Write ('inserte legajo: ');
             readln (legajo);
-            If promedio>=6.5 Then buenpromedio := buenpromedio+1;
-            If promedio>=8.5 Then destacados := destacados+1
         End;
     writeln ('cantidad de alumnos: ', alumnos);
     writeln ('cantidad de alumnos con buen promedio: ', buenpromedio);
