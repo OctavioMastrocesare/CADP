@@ -1,5 +1,5 @@
 
-Program Vocales;
+Program ejercicio8;
 
 Var 
     letra1, letra2, letra3:   char;
