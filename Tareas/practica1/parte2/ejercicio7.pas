@@ -11,10 +11,6 @@ Begin
     first2t := 9999;
     last1t := 0.00;
     last2t := 0.00;
-    first1 :=   'xxx';
-    first2 :=   'xxx';
-    last1 :=   'xxx';
-    last2 :=   'xxx';
     For i:=1 To 4 Do
         Begin
             write ('nombre del piloto: ');
@@ -55,6 +51,8 @@ Begin
 End.
 
 // B)
+
+
 
 
 {Realizar un programa que lea desde teclado información de autos de carrera. Para cada uno de los
